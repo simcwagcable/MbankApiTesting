@@ -7,7 +7,7 @@ public class SpoonacularTest {
     @Test
     void testSpoonacularSearch() {
         given()
-                .queryParam("apiKey", "fd356c6b1c7540779db5427613146f7c") // Нужно получить на сайте spoonacular
+                .queryParam("apiKey", "fd356c6b1c7540779db5427613146f7c") 
                 .queryParam("query", "pasta")
                 .queryParam("maxFat", "25")
                 .when()
