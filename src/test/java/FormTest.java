@@ -6,7 +6,6 @@ public class FormTest {
 
     @Test
     void shouldCheckJsonSchema() {
-        // Данные, которые мы ОЖИДАЕМ от сервера (согласно твоим файлам index.js)
         String mockResponse = "{\n" +
                 "  \"success\": true,\n" +
                 "  \"data\": {\n" +
